@@ -1,5 +1,7 @@
 package com.pawpengaga;
 
-public interface ICalculadora {
+import java.util.List;
 
+public interface ICalculadora {
+  List<Alumno> calcularPromedio();
 }
