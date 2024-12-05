@@ -16,7 +16,7 @@ public class ConfiguracionLista {
    * Un bean no necesita accesadores o modificadores, esta por sobre ellos
    */
 
-  @Bean
+  @Bean("listaAlumnos")
   List<Alumno> getAlumnoList(){
 
     ArrayList<Alumno> alumnos = new ArrayList<Alumno>();
