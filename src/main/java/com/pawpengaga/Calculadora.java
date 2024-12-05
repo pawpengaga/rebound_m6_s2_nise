@@ -3,6 +3,7 @@ package com.pawpengaga;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import lombok.AllArgsConstructor;
@@ -17,6 +18,11 @@ import lombok.Data;
 @Component("calculadora")
 public class Calculadora implements ICalculadora {
 
+  /**
+   * @Qualifier da el nombre por el que nos referimos a la inyeccion de dependencias
+   */
+
+  @Qualifier("listaAlumnos")
   @Autowired
   private List<Alumno> alumnos;
 
