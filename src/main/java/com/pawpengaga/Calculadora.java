@@ -11,6 +11,17 @@ import lombok.Data;
 
 /**
  * El comportammiento por defecto de los componentes es llamarse como la clase pero con la letra minuscula
+ * 
+ * Cosas que usa Spring
+ * 
+ * Repositorio: Algo que ofrece datos
+ * Servicios: 
+ * Componentes: Una clase que se va a poder usar, que tiene la facultad de poder inyectarse
+ * 
+ * La calculadora depende del alumno, es por eso que se usa el qualificador en el metodo main
+ * 
+ * El profesor dio una explicacion intesesante a partir de las 21:48
+ * 
  */
 
 @AllArgsConstructor

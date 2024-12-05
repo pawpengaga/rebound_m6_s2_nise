@@ -22,6 +22,4 @@ public class ReboundM6S2ErickRiveraApplication implements CommandLineRunner {
 		profesor.mostrarAlumnos();
 	}
 
-
-
 }
